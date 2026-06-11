@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="home-section">
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar" aria-controls="portfolioNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="portfolioNavbar">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html#about-section">About Me</a>
+          <a class="nav-link" href="index.html#achievements-section">Achievements</a>
+          <a class="nav-link" href="index.html#education-section">Education</a>
+          <a class="nav-link" href="index.html#goals-section">Goals</a>
+          <a class="nav-link" href="index.html#skills-section">Skills</a>
+          <a class="nav-link" href="index.html#project-section">Projects</a>
+          <a class="nav-link" href="index.html#contact-section">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class = "hero-content">
+    <div class="header">
+      <h1 class="h1-hero">Welcome to my portfolio website!</h1>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class ="about-card">
+      <div id="about-section">
+        <h1>About Me</h1>
+        <div class="me-container">
+          <img src="porfolio.jpg" alt="A picture of me" class="me">
+          <p class="about-me-text">My name is Kirsten and I am a trainee at Life Choices Academy, who loves bringing ideas into code and existance. I'm currently learning about code and how to create clean, responsive and user-friendly webites. Outside of coding, I am probably keeping up with my hobbies or creating something new.♡ <br><br> I gained a passion for coding when i discovered how a few lines of code could bring an idea to life. What started as curiosity slowly became something I can actually enjoy. I love the process of learning new technologies, solving problems and also turning creative ideas into functional projects. In the future, I hope to contribute to projects that make a difference, as well as empower others to pursue their goals and passion while continuing to grow as a developer.♡ </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<br>
+
+<section>
+  <div class = "success-card">
+    <div class="success-content">
+      <div id="achievements-section"> 
+        <h2> Achievements </h2>
+        <p>Some things I have accomplished include building and launching my first portfolio website.</p>
+        <p>Successfully completed multiple coding assignments (found on my Github),</p>
+        <p>and continuously expanded my knowledge in the field.</p>
+      </div>
+    </div>
+  
+    <div class="success-content">
+      <div id="education-section">
+        <h2> Education </h2>
+        <p>Rocklands High School, 2020-2025, Bachelor's pass ♡</p>
+        <p>Life Choices Academy, 2026-current ♡</p>
+      </div>
+    </div>
+
+    <div class="success-content">
+      <div id="goals-section">
+        <h2>Short term goals</h2>
+        <ul><li>Improve my skills and become more confident in my code♡</li>
+          <li>Gain real-world experience♡</li>
+          <li>Learn new technologies and frameworks used in modern development♡</li></ul>
+      </div>
+    </div>
+
+    <div class="success-content">
+      <div class = "goals-section">
+        <h2>Long Term Goals</h2>
+        <ul><li>Become a professional developer♡</li>
+          <li>Mentor and support other aspiring developers as I grow♡</li>
+          <li>Contribute to impactful projects that solve real-world problems♡</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+
+<section class="skills-card">
+  <h2>Skills!</h2>
+  <div id="skills-section">
+    <div class="skill-circle --python" style="--value: 75;">
+      <div class="inner-content">
+        <span class="progress-text">75%</span>
+        <h2>Python</h2>
+      </div>
+    </div>
+    
+    <div class="skill-circle --html" style="--value: 80;">
+      <div class="inner-content">
+        <span class="progress-text">80%</span>
+        <h2>HTML</h2>
+      </div>
+    </div>
+    
+    <div class="skill-circle --css" style="--value: 65;">
+      <div class="inner-content">
+        <span class="progress-text">65%</span>
+        <h2>CSS</h2>
+      </div>
+    </div>
+    
+    <div class="skill-circle --js" style="--value: 50;">
+      <div class="inner-content">
+        <span class="progress-text">50%</span>
+        <h2>JS</h2>
+      </div>
+    </div>
+
+    <div class="skill-circle --bootstrap" style="--value: 75;">
+      <div class="inner-content">
+        <span class="progress-text">75%</span>
+        <h2>Bootstrap</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+
+<h2>Projects!</h2>
+<section id="project-section" class="projects-grid">
+  <a class="project-card-link" href="https://kirstenlayters.github.io/Gallery/" target="_blank" rel="noopener noreferrer">
+    <div class="project-card">
+      <img src="gallery.png" alt="Gallery website preview" class="project-card-image">
+      <div class="project-card-content">
+        <h2>A Gallery website</h2>
+      </div>
+    </div>
+  </a>
+
+  <a class="project-card-link" href="https://kirstenlayters.github.io/bootstrap-/" target="_blank" rel="noopener noreferrer">
+    <div class="project-card">
+      <img src="shopping.png" alt="Demo shopping website preview" class="project-card-image">
+      <div class="project-card-content">
+        <h2>A demo shopping website</h2>
+      </div>
+    </div>
+  </a>
+
+  <a class="project-card-link" href="https://kirstenlayters.github.io/exercise-3-week-2" target="_blank" rel="noopener noreferrer">
+    <div class="project-card">
+      <img src="recipes.png" alt="Recipes website preview" class="project-card-image">
+      <div class="project-card-content">
+        <h2>A recipes website</h2>
+      </div>
+    </div>
+  </a>
+</section>
+
+<br>
+
+<section>
+    <div class="contact-info-card">
+      <h3>Alternative Contact</h3>
+      <p>📍 Cape Town, South Africa</p>
+      <p>👩‍💻 <a href="https://github.com/kirstenlayters" target="_blank">My GitHub</a></p>
+      <p>✉️ <a href="https://www.linkedin.com/in/kirsten-layters-48b434371/" target="_blank">My LinkedIn</a></p>
+    </div>
+
+    <div class="contact-card">
+        <div id="contact-section">
+          <form action="https://formspree.io/f/mvzngjlk" method="POST">
+          <h2>Contact form!</h2>
+          <div class="form-group">
+            <label for="full_name">Full name</label>
+            <input type="text" id="full_name" name="full_name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Reason for contact</label>
+            <textarea id="message" rows="5" name="message" required></textarea>
+          </div>
+          
+          <button type="submit" class="submit-button">Submit form</button>
+        </form>
+      </div>
+    </div>
+</section>
+
+
+<footer class="bg-dark text-white text-center py-4 mt-auto">
+  <div class="container">
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
